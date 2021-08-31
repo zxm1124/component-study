@@ -33,5 +33,5 @@ func GetPageOffset(page ,pageSize int) int{
 	if page > 0 {
 		return (page - 1) * pageSize
 	}
-	return offset
+	return offset 
 }

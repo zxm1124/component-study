@@ -47,6 +47,6 @@ type Pager struct {
  func (s StrTo) MustInt() int{
         v, _ := s.Int()
         return v
-      }
+ }
       // ...
  ```

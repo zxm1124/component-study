@@ -3,15 +3,10 @@
 ## 实现思路
 
 1. 导入viper
-
    ` go get -u github.com/spf13/viper@v1.4.0`
-
 2. 创建Setting结构体，把 *viper.Viper 作为成员
-
 3. 创建New方法，配置viper
-
 4. 创建一个成员函数，作为读取yaml扇区中的配置信息
-
 ### 1.创建viper结构体以及相关方法
 ```go
 type Setting struct{
